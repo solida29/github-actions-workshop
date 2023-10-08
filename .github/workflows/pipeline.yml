@@ -1,10 +1,13 @@
 name: CI/CD Pipeline
 
 on: push
-jobs:
+
 env:
   NODE_VERSION: "20.5.1"
-  hello-world:
+
+jobs:
+  test:
+    name: Test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
