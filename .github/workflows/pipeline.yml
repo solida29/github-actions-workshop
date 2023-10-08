@@ -3,7 +3,7 @@ name: CI/CD Pipeline
 on: push
 
 env:
-  NODE_VERSION: "20.5.1"
+  NODE_VERSION: "18.18"
 
 jobs:
   test:
